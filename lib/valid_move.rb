@@ -1,5 +1,5 @@
 # code your #valid_move? method here
-def valid_move?(choice)
+def valid_move?(board, choice)
   if choice >= 1 && choice <= 9
     return true
   else
